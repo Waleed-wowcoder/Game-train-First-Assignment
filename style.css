@@ -25,7 +25,7 @@ header{
     width: 450px;
     height: 799px;
     position: absolute;
-    background-image: url(./Images/Black.png);
+    background-image: url(./Black.png);
     top: 1px;
 }
 .white{
@@ -33,7 +33,7 @@ header{
     height: 800px;
     position: absolute;
     left: 450px;
-    background-image: url(./Images/white.jpg);
+    background-image: url(./white.jpg);
     background-position: center;
     background-size: cover;
     z-index: 1;
@@ -129,7 +129,7 @@ header{
     left: 475px;
     top: 0;
    
-    background-image: url(./Images/gym.jpg);
+    background-image: url(./gym.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -140,7 +140,7 @@ header{
     position: absolute;
     top: 405px;
     left: 0;
-    background-image: url(./Images/table.jpg);
+    background-image: url(./table.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -151,7 +151,7 @@ header{
     top: 405px;
     left: 665px;
    
-    background-image: url(./Images/hall.jpg);
+    background-image: url(./hall.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -297,7 +297,7 @@ footer{
     top: 0px;
     left: 1px;
  
-    background-image: url(./Images/facebook.png);
+    background-image: url(./facebook.png);
     background-position: center;
     background-size: cover;
 }
@@ -307,7 +307,7 @@ footer{
     position: absolute;
     top: 0px;
     left: 40px;
-    background-image: url(./Images/instagram.png);
+    background-image: url(./instagram.png);
     background-position: center;
     background-size: cover;
 }
@@ -319,7 +319,7 @@ footer{
     top: 0px;
     left: 80px;
    
-    background-image: url(./Images/twitter.png);
+    background-image: url(./twitter.png);
     background-position: center;
     background-size: cover;
 }
