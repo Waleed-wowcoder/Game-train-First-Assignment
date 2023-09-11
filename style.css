@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather&family=Outfit:wght@300&family=Space+Mono&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Big+Shoulders+Display&family=Merriweather&family=Outfit:wght@300&family=Space+Mono&family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 1439px;
+    height: 2554px;
+    position: relative;
+
+}
+
+header{
+    width: 1275px;
+    height: 800px;
+    position: relative;
+
+}
+
+.black{
+    width: 450px;
+    height: 799px;
+    position: absolute;
+    background-image: url(./Images/Black.png);
+    top: 1px;
+}
+.white{
+    width: 540px;
+    height: 800px;
+    position: absolute;
+    left: 450px;
+    background-image: url(./Images/white.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+.message{
+    width: 350px;
+    height: 160px;
+    position: absolute;
+    top: 190px;
+    left: 925px;
+    line-height: 32px;
+    font-size: 22px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+    color: #444444;
+    z-index: 0;
+}
+.locationTxt{
+    width: 204px;
+    height: 72px;
+    position: absolute;
+    top: 414px;
+    left: 925px;
+    border: 1px solid rgb(154, 78, 2);
+    background-color: black;
+}
+.txt{
+    width: 137px;
+    height: 24px;
+    position: absolute;
+    top: 24px;
+    left: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    size: 20px;
+    line-height: 32px;
+    color: #ffff;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+}
+.searchBtn{
+    width: 56px;
+    height: 72px;
+    top: 414px;
+    left: 1129px;
+    position: absolute;
+    background-color:  #D5966C;
+    
+}
+.icon{
+    width: 8px;
+    height: 24px;
+    position: absolute;
+    top: 438px;
+    left: 1153px;
+}
+
+.icon p {
+    font-size: 26px;
+    color: white;
+}
+.searchBtn:hover,.icon:hover{
+    cursor: pointer;
+}
+
+.middle{
+    width: 1110px;
+    height: 1150px;
+    position: absolute;
+    top: 966px;
+    left: 165px;
+    
+}
+
+.leftAside{
+    width: 350px;
+    height: 280px;
+    position: absolute;
+    top: 60px;
+
+}
+.imgContainer{
+    width: 635px;
+    height: 400px;
+    position: absolute;
+    left: 475px;
+    top: 0;
+   
+    background-image: url(./Images/gym.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.tableImage{
+    width: 635px;
+    height: 720px;
+    position: absolute;
+    top: 405px;
+    left: 0;
+    background-image: url(./Images/table.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hallImage{
+    width:445px;
+    height: 313px;
+    position: absolute;
+    top: 405px;
+    left: 665px;
+   
+    background-image: url(./Images/hall.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.quote{
+    width: 445px;
+    height: 377px;
+    position: absolute;
+    top: 773px;
+    left: 665px;
+    background-color: black;
+
+}
+
+.headingBlock{
+    width: 350px;
+    height: 120px;
+    font-weight: 900;
+
+    font-size: 60px;
+    line-height: 60px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Big Shoulders Display', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+.textBlock{
+    width: 350px;
+    height: 128px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    position: absolute;
+    top: 152px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Outfit', sans-serif;
+
+
+}
+.contentBlock{
+    width: 350px;
+    height: 248px;
+    position: absolute;
+    left: 48px;
+    top: 65px;
+  
+
+}
+.quoteHeading{
+    width: 350px;
+    height: 120px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 60px;
+    
+    font-family: 'Big Shoulders Display', cursive;
+ 
+    font-family: 'Outfit', sans-serif;    
+    color: white;
+    
+}
+
+.quoteText{
+    width: 350px;
+    height: 96px;
+    position: absolute;
+    top:152px;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+}
+
+footer{
+    width: 1440px;
+    height: 244px;
+    position: absolute;
+    top: 2310px;
+ 
+    background-color: black;
+}
+.footContBlock{
+    width: 1110px;
+    height: 84px;
+    position: absolute;
+    top: 80px;
+    left: 165px;
+   
+}
+.footerHeading{
+    width: 159.57px;
+    height: 58px;
+    color: white;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 32px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+
+
+}
+.footerText{
+    width: 430px;
+    height: 84px;
+    position: absolute;
+    top: 0;
+    left: 300px;
+    
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300px;
+    font-size: 14px;
+    line-height: 28px;
+    color: white;
+}
+
+.socailIcons{
+    width: 100px;
+    height: 22px;
+    position: absolute;
+    left: 1010px;
+    top: 0;
+    
+}
+.fb{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 1px;
+ 
+    background-image: url(./Images/facebook.png);
+    background-position: center;
+    background-size: cover;
+}
+.insta{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    background-image: url(./Images/instagram.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.twitter{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 80px;
+   
+    background-image: url(./Images/twitter.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.twitter:hover, .fb:hover, .insta:hover{
+    cursor: pointer;
+}
